@@ -24,7 +24,7 @@ def main():
 
 
 def print_info():
-    for word, points in WORDS.items():
+    for word, points in WORDS.items(): # items() creates a set of keys and values of our dictionary
         print(f"{word} is worth {points} points.")
 
 main()
